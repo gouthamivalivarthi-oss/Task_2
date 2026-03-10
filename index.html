@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Music Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="player">
+
+<h2>My Music Player</h2>
+
+<ul id="playlist">
+<li data-src="Sankranthi Sandhalle - SenSongsMp3.Com.mp3">Song 1 - Artist A</li>
+<li data-src="Okey Oka Lokam - SenSongsMp3.Com.mp3">Song 2 - Artist B</li>
+<li data-src="1 - Yemunnave Pilla - SenSongsMp3.mp3">Song 3 - Artist C</li>
+</ul>
+
+<audio id="audio"></audio>
+
+<div class="controls">
+
+<button onclick="prevSong()">⏮ Previous</button>
+
+<button onclick="playPause()">▶ Play / ⏸ Pause</button>
+
+<button onclick="nextSong()">⏭ Next</button>
+
+</div>
+
+<div class="volume">
+Volume:
+<input type="range" min="0" max="1" step="0.1" onchange="changeVolume(this.value)">
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
