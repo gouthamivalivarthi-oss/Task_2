@@ -1,0 +1,40 @@
+body{
+font-family: Arial;
+background:#f2f2f2;
+text-align:center;
+}
+
+.player{
+width:350px;
+margin:auto;
+margin-top:50px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+padding:8px;
+cursor:pointer;
+border-bottom:1px solid #ddd;
+}
+
+li:hover{
+background:#064874ac;
+}
+
+.controls button{
+margin:10px;
+padding:10px;
+font-size:16px;
+}
+
+.volume{
+margin-top:10px;
+}
